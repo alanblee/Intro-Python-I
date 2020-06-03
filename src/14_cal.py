@@ -53,3 +53,4 @@ elif len(sys.argv) == 2:
     set_cal(mo)
 else:
     set_cal()
+    sys.exit(1)

@@ -40,13 +40,13 @@ def isPrime(num):
             return f"{True}, {num} is a prime number"
 
 
-print(isPrime(5))
-print(isPrime(1))
-print(isPrime(2))
-print(isPrime(3))
-print(isPrime(4))
-print(isPrime(9))
-print(isPrime(11))
-print(isPrime(49))
-print(isPrime(62))
-print(isPrime(83))
+print(isPrime(5))  # should return true
+print(isPrime(1))  # should return false
+print(isPrime(2))  # should return true
+print(isPrime(3))  # should return true
+print(isPrime(4))  # should return false
+print(isPrime(9))  # should return false
+print(isPrime(11))  # should return true
+print(isPrime(49))  # should return false
+print(isPrime(62))  # should return false
+print(isPrime(83))  # should return true
